@@ -89,8 +89,8 @@ alphaFM用于解决这样的问题特别适合，一边从hdfs下载，一边计
 `-dim 1,1,2 -w_l1 0.05 -v_l1 0.05 -init_stdev 0.001 -w_alpha 0.01 -v_alpha 0.01 -core 10`<br>
 训练时间只需要10多分钟。若指定模型文件为二进制格式，速度会更快。
 ##  其他FM实现
--xlearn:xlearn-doc-cn.readthedocs.io <br>
--libFM:libfm.org/ <br>
--tffm:github.com/geffy/tffm <br>
--alphaFM:github.com/CastellanZha <br>
--Spark-FM:github.com/zhengruifeng <br>
+* xlearn:xlearn-doc-cn.readthedocs.io <br>
+* libFM:libfm.org/ <br>
+* tffm:github.com/geffy/tffm <br>
+* alphaFM:github.com/CastellanZha <br>
+* Spark-FM:github.com/zhengruifeng <br>
