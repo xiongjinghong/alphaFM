@@ -88,4 +88,9 @@ alphaFM用于解决这样的问题特别适合，一边从hdfs下载，一边计
 本地1000万的样本，200万的特征维度，2.10GHz的CPU，开10个线程，非缺省参数如下：<br>
 `-dim 1,1,2 -w_l1 0.05 -v_l1 0.05 -init_stdev 0.001 -w_alpha 0.01 -v_alpha 0.01 -core 10`<br>
 训练时间只需要10多分钟。若指定模型文件为二进制格式，速度会更快。
-
+##  其他FM实现
+-xlearn:xlearn-doc-cn.readthedocs.io
+-libFM:libfm.org/
+-tffm:github.com/geffy/tffm
+-alphaFM:github.com/CastellanZha
+-Spark-FM:github.com/zhengruifeng
